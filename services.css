@@ -14,15 +14,17 @@ header {
     margin: 0% 1%;
     align-items: center;
     flex-wrap: wrap;
+    background-color: #d6d1d1;
 }
 
 header figure {
     flex: 1;
     min-width: 100px;
+    margin-left: 1%;
 }
 
 header figure img {
-    border-radius: 10%;
+    border-radius: 40%;
 }
 
 /*estilos del header nav*/
@@ -31,7 +33,6 @@ header nav {
     flex: 9;
     min-width: 350px;
     margin-left: 5%;
-    background: #ffffff;
     padding: auto;
 }
 
@@ -123,7 +124,7 @@ main article section h3 a {
     font-size: 1em;
     color: #000000;
     padding: 14px 23px;
-    border: solid 2px black;
+    border: solid 2px #000000;
     text-transform: uppercase;
 }
 
@@ -132,17 +133,17 @@ article section h3 a:hover {
     background-color: #10094a;
 }
 
-main p{
-    border: solid 2px black;
+main p {
+    border: solid 2px #000000;
     text-transform: uppercase;
     text-align: center;
     padding: 1%;
     display: inline-block;
-    cursor:pointer;
+    cursor: pointer;
     margin: 2% 43%;
 }
 
-main p:hover{
+main p:hover {
     color: #ffffff;
     background-color: #39d8ea;
 }

@@ -34,7 +34,7 @@
                 <p>Intenta rellenar correctamente todos los campos y coméntanos todos los detalles posibles en
                     «observaciones». Cuanta más información tengamos de tu petición mejores opciones podremos
                     proponerte.</p>
-                <h2>Para más información</h2>
+                <h3>Para más información</h3>
                 <p>Llamar al número de teléfono:
                     <a href="tel:+34640856854" tel="+34640856854">+34 640856854</a>
                 </p>
@@ -43,7 +43,70 @@
                 </p>
             </section>
             <section>
-                formulario
+                <form>
+                    <label>Nombre Completo:</label>
+                    <input type="text" name="user" placeholder="Nombre y apellidos" />
+                    <br />
+                    <label>Cantidad de personas:</label>
+                    <select name="personas">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="Más de 10">Más de 10</option>
+                    </select>
+                    <br />
+                    <label>Seleccione la opción que desea:</label>
+                    <select name="opciones">
+                        <option value="Super Yates">Super Yates</option>
+                        <option value="Yates">Yates</option>
+                        <option value="Lanchas">Lanchas</option>
+                        <option value="Veleros">Veleros</option>
+                        <option value="Catamaranes">Catamaranes</option>
+                        <option value="Eventos">Eventos</option>
+                    </select>
+                    <br />
+                    <label for="">Desde:</label>
+                    <input type="text" required="required" placeholder="dd-mm-aaaa" pattern="\d{2}-\d{2}-\d{4}" />
+                    <br />
+                    <label for="">Hasta:</label>
+                    <input type="text" required="required" placeholder="dd-mm-aaaa" pattern="\d{2}-\d{2}-\d{4}" />
+                    <br />
+                    <label>País de orígen:</label>
+                    <input type="text" name="país" placeholder="Ingrese su País de origen" />
+                    <br />
+                    <label>Email:</label>
+                    <input type="email" name="email" placeholder="ingrese su email" required="required"
+                        pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" />
+                    <br />
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required="required" placeholder="+34 666 66 66 66"
+                        pattern="[+]\d{1,3}\s\d{3}\s\d{2}\s\d{2}\s\d{2}" />
+                    <br />
+                    <label for="">DNI:</label>
+                    <input type="text" required="required" minlength="9" placeholder="Ingrese su DNI" maxlength="9"
+                        pattern="(([0-9]{8})|([XYZ]\d{7}))[ABCDEFGHJKLMNPQRSTVWXYZ]" />
+                    <br />
+                    <label>Observaciones:</label>
+                    <textarea name="Más sobre ti" cols="30" rows="10" placeholder="Deje sus comentarios"></textarea>
+                    <br />
+                    <label>Desea recibir publicidad de la compañia?</label>
+                    <input type="radio" name="suscribirse" />
+                    <label>Si</label>
+                    <input type="radio" name="suscribirse" />
+                    <label>No</label>
+                    <br />
+                    <input type="checkbox">
+                    <label>Aceptar política de privacidad</label>
+                    <br>
+                    <button type="submit">Enviar Consulta</button>
+                </form>
             </section>
         </article>
     </main>
