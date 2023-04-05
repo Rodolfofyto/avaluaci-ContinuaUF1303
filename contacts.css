@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+figure>img {
+    width: 100%;
+}
+
+/*estilos del Header*/
+
+header {
+    display: flex;
+    margin: 0% 1%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header figure {
+    flex: 1;
+    min-width: 100px;
+}
+
+header figure img {
+    border-radius: 10%;
+}
+
+/*estilos del header nav*/
+
+header nav {
+    flex: 9;
+    min-width: 350px;
+    margin-left: 5%;
+    background: #ffffff;
+    padding: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 2%;
+    min-width: 2%;
+    padding: 3% 2%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 14px 20px;
+    font-size: 1em;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    background-color: #1c0893;
+    font-weight: bold;
+}
+
+nav ul li:nth-of-type(4) {
+    background-color: transparent;
+    padding-right: 0%;
+    cursor: pointer;
+}
+
+nav ul li:nth-of-type(5) {
+    background-color: transparent;
+    padding-left: 0%;
+    cursor: pointer;
+}
+
+/*estilos del main*/
+
+main {
+    margin: 0% 1%;
+}
+
+main>section {
+    background-image: url(images/Servicios/barcosCabecera.jpg);
+    background-size: cover;
+    margin-bottom: 3%;
+}
+
+main section h1 {
+    flex: 5;
+    font-size: 6vw;
+    text-align: center;
+    min-width: 400px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px #0b091e;
+    padding: 5%;
+}
+
+main article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main article section {
+    flex: 1;
+    min-width: 300px;
+}
+
+main article section figure {
+    margin: 5%;
+}
+
+main article section h3 {
+    margin: 5% 10%;
+    padding: 3%;
+    text-align: center;
+}
+
+main article section h3 a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #000000;
+    padding: 14px 23px;
+    border: solid 2px black;
+    text-transform: uppercase;
+}
+
+article section h3 a:hover {
+    color: #ffffff;
+    background-color: #10094a;
+}
+
+main p{
+    border: solid 2px black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1%;
+    display: inline-block;
+    cursor:pointer;
+    margin: 2% 43%;
+}
+
+main p:hover{
+    color: #ffffff;
+    background-color: #39d8ea;
+}
+
+
+/* footer*/
+
+footer {
+    margin: 0.3% 1%;
+    padding: 2%;
+    background-color: rgb(221, 244, 252);
+    text-align: center;
+}
