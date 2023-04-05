@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: solid 1px black;
 }
 
 figure>img {
@@ -19,7 +18,7 @@ header {
 
 header figure {
     flex: 1;
-    min-width: 200px;
+    min-width: 100px;
 }
 
 header figure img {
@@ -29,8 +28,8 @@ header figure img {
 /*estilos del header nav*/
 
 header nav {
-    flex: 5;
-    min-width: 400px;
+    flex: 9;
+    min-width: 350px;
     margin-left: 5%;
     background: #ffffff;
     padding: auto;
@@ -38,36 +37,42 @@ header nav {
 
 nav ul {
     display: flex;
-    flex: 1;
     justify-content: flex-end;
 }
 
 nav ul li {
     list-style: none;
-    padding: 1.5%;
-    margin-left: 10%;
-    text-transform: uppercase;
+    margin-left: 2%;
     min-width: 2%;
-    cursor: pointer;
+    padding: 3% 2%;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(69, 70, 69);
+    color: rgb(58, 58, 58);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 14px 20px;
+    font-size: 1em;
 }
 
-nav ul li:hover {
-    background-color: #aefa82;
+nav ul li a:hover {
+    color: #ffffff;
+    background-color: #1c0893;
+    font-weight: bold;
 }
 
 nav ul li:nth-of-type(4) {
     background-color: transparent;
-    padding-right: 0;
+    padding-right: 0%;
+    cursor: pointer;
 }
 
 nav ul li:nth-of-type(5) {
     background-color: transparent;
-    padding-left: 0;
+    padding-left: 0%;
+    cursor: pointer;
 }
 
 /*estilos del main*/
@@ -76,62 +81,72 @@ main {
     margin: 0% 1%;
 }
 
-article:nth-of-type(even) {
-    background-color: rgb(3, 3, 82);
-    color: rgb(253, 252, 252);
-    display: flex;
-    flex-wrap: wrap;
+main>section {
+    background-image: url(images/Servicios/barcosCabecera.jpg);
+    background-size: cover;
+    margin-bottom: 3%;
 }
 
-article:nth-of-type(odd) {
-    background: linear-gradient(to left, rgb(21, 235, 255), rgb(113, 74, 241));
-    color: rgb(30, 2, 91);
-    display: flex;
-    flex-wrap: wrap;
-}
-
-main article p {
-    text-indent: 7%;
-    text-align: justify;
-    flex: 1;
-    min-width: 400px;
-    padding: 1% 2%;
-    line-height: 30px;
-}
-
-main article figure {
-    flex: 1;
-    min-width: 400px;
-}
-
-main article p:first-letter {
-    font-weight: bold;
-    font-size: 2em;
-}
-
-article:last-of-type p {
-    align-self: center;
-}
-
-section {
-    margin-top: 0.3%;
-    margin-bottom: 0%;
-}
-
-section video {
-    width: 100%;
-}
-
-section h2 {
-    text-align: center;
-    position: absolute;
-    margin-left: 7%;
-    margin-top: 10%;
+main section h1 {
+    flex: 5;
     font-size: 6vw;
+    text-align: center;
+    min-width: 400px;
     font-family: 'Fredoka One', cursive;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 10px #0b091e;
+    padding: 5%;
 }
+
+main article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main article section {
+    flex: 1;
+    min-width: 300px;
+}
+
+main article section figure {
+    margin: 5%;
+}
+
+main article section h3 {
+    margin: 5% 10%;
+    padding: 3%;
+    text-align: center;
+}
+
+main article section h3 a {
+    text-decoration: none;
+    font-size: 1em;
+    color: #000000;
+    padding: 14px 23px;
+    border: solid 2px black;
+    text-transform: uppercase;
+}
+
+article section h3 a:hover {
+    color: #ffffff;
+    background-color: #10094a;
+}
+
+main p{
+    border: solid 2px black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1%;
+    display: inline-block;
+    cursor:pointer;
+    margin: 2% 43%;
+}
+
+main p:hover{
+    color: #ffffff;
+    background-color: #39d8ea;
+}
+
 
 /* footer*/
 

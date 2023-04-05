@@ -7,6 +7,10 @@ figure>img {
     width: 100%;
 }
 
+body {
+    background-color: #d6d1d1;
+}
+
 /*estilos del Header*/
 
 header {
@@ -64,11 +68,18 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(69, 70, 69);
+    color: rgb(58, 58, 58);
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 14px 20px;
+    font-size: 1em;
 }
 
-nav ul li:hover {
-    background-color: #7cf6ff;
+nav ul li a:hover {
+    color: #ffffff;
+    background-color: #1c0893;
+    font-weight: bold;
 }
 
 nav ul li:nth-of-type(4) {
@@ -108,6 +119,8 @@ main article p {
     min-width: 400px;
     padding: 1% 2%;
     line-height: 30px;
+    align-self: center;
+    letter-spacing: 1.5px;
 }
 
 main article figure {
@@ -122,6 +135,7 @@ main article p:first-letter {
 
 article:last-of-type p {
     align-self: center;
+    letter-spacing: 1.5px;
 }
 
 section {
