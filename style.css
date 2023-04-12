@@ -9,6 +9,7 @@ figure>img {
 
 body {
     background-color: #d6d1d1;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 /*estilos del Header*/
@@ -121,6 +122,7 @@ main article p {
     line-height: 30px;
     align-self: center;
     letter-spacing: 1.5px;
+ 
 }
 
 main article figure {
