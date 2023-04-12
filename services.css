@@ -145,6 +145,7 @@ main p {
     cursor: pointer;
     margin: 2% 43%;
     font-family: 'Schibsted Grotesk', sans-serif;
+    font-weight: bold;
 }
 
 main p:hover {
